@@ -7,4 +7,5 @@ export default defineConfig({
   server: {
     port: 3000, // Or any other port
   },
+  publicPath: "/vue-todo"
 })
