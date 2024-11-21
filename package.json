@@ -1,4 +1,5 @@
 {
+  "homepage": "https://kishan4u2007.github.io/viewTodo/",
   "name": "vue-todo",
   "private": true,
   "version": "0.0.0",
@@ -9,9 +10,10 @@
     "preview": "vite preview",
     "test:unit": "jest",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.2.0",
     "vue": "^3.5.12"
   },
   "devDependencies": {
